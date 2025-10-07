@@ -1,0 +1,58 @@
+Ensemble Learning & Real-World ML Optimization
+
+🔹 Lesson 1: Ensemble Methods Overview
+=======================================
+Summary:
+Ensemble learning combines multiple models to improve accuracy.
+Bagging → Reduces variance (e.g., Random Forest)
+Boosting → Reduces bias (e.g., XGBoost, AdaBoost)
+Stacking → Combines models’ predictions for better performance
+
+Example:
+A Random Forest outperforms a single Decision Tree on customer churn prediction.
+
+
+🔹 Lesson 2: Random Forests Explained
+======================================
+Summary:
+Builds many decision trees using random samples and averages their results.
+Handles missing values well
+Prevents overfitting
+Great for both classification & regression
+
+Example:
+Predicting housing prices with multiple features like area, location, and number of rooms.
+
+
+🔹 Lesson 3: Gradient Boosting & XGBoost
+===========================================
+Summary:
+Boosting = sequential model building, where each new model corrects previous errors.
+XGBoost = faster, regularized version of Gradient Boosting
+Ideal for structured/tabular data
+
+Example:
+Credit risk prediction with XGBoost often beats logistic regression.
+
+
+🔹 Lesson 4: Model Stacking (Meta-Learning)
+=============================================
+Summary:
+Stacking combines predictions from multiple models using a meta-model.
+Level 1: Base models (e.g., SVM, Random Forest, XGBoost)
+Level 2: Meta-model (e.g., Logistic Regression)
+Results in strong generalization
+
+Example:
+Stacking models increased F1-score by 6% on a fraud detection dataset.
+
+
+🔹 Lesson 5: Case Study – Insurance Claim Prediction
+===================================================
+Summary:
+----------
+Data preprocessing + feature selection
+Compare Decision Tree, Random Forest, and XGBoost
+Stack top 2 models using Logistic Regression
+Achieved 94% accuracy on claim prediction
+
